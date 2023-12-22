@@ -1,0 +1,22 @@
+/*Here i import from google fonts the font that i will use for all the design*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#imglink{
+    max-width: 50px;
+
+}
+
+html{
+    font-family: Raleway;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+header,nav,body{
+    background-color: rgba(240, 255, 255, 0.075);
+    border-radius: 30%;
+}
