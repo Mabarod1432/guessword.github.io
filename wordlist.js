@@ -183,5 +183,9 @@ const wordList = [
         word:"cotorrisa",
         hint:"El mejor podcast de comedia"
     },
+    {
+        word:"podcast",
+        hint:"origined on the iPod"
+    },
 
 ]

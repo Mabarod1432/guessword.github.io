@@ -1,19 +1,27 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
 #imglink{
     max-width: 50px;
 }
 
 html{
-    font-family: Raleway;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: rgba(241, 241, 241, 0.185);
 }
+nav,Header{
+   margin-bottom: auto; 
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+a:link{
+color: black;
+}
+p{
+  font-size: small;
+}
 Header{
-    margin-right:6%;
-}
-nav{
-    margin-right: 6%;
-}
-header{
     width: auto;
     height: auto;
     font-size: large;
@@ -28,16 +36,9 @@ header{
     background-color: rgba(137, 171, 182, 0.459)
 }
 
-/* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 body{
-  display: flex;
+  display:grid;
   padding: 0 10px;
   min-height: 100vh;
   align-items: center;
